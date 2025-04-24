@@ -5,28 +5,30 @@ import '../styles/Navbar.css'; // Optional: Add your CSS file for styling
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <div className="navbar-logo">
-                <h1>Portfolio</h1>
-            </div>
+            <article className="navbar-logo">
+                <Link to="home" smooth={true} duration={500}>
+                    <h1>Miguel Lucero</h1>
+                </Link>
+            </article>
             <ul className="navbar-links">
                 <li>
-                    <Link to="home" smooth={true} duration={500}>
-                        Home
+                    <Link to="about" smooth={true} duration={500}>
+                        sobre mí
                     </Link>
                 </li>
                 <li>
-                    <Link to="about" smooth={true} duration={500}>
-                        About
+                    <Link to="tech" smooth={true} duration={500}>
+                        tecnologías
                     </Link>
                 </li>
                 <li>
                     <Link to="projects" smooth={true} duration={500}>
-                        Projects
+                        projectos
                     </Link>
                 </li>
                 <li>
                     <Link to="contact" smooth={true} duration={500}>
-                        Contact
+                        contacto
                     </Link>
                 </li>
             </ul>

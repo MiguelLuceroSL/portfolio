@@ -2,32 +2,27 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer style={styles.footer}>
+        <footer id="footer" style={styles.footer}>
             <p style={styles.text}>
-                © {new Date().getFullYear()} Your Name. All rights reserved.
+                © {new Date().getFullYear()} Miguel Roque Roberto Lucero. Todos los derechos reservados.
             </p>
             <div style={styles.socialLinks}>
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" style={styles.link}>
+                <a href="https://github.com/MiguelLuceroSL" target="_blank" rel="noopener noreferrer" style={styles.link}>
                     GitHub
                 </a>
-                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" style={styles.link}>
+                <a href="https://www.linkedin.com/in/lucero-roque-roberto-miguel-2122bb251/" target="_blank" rel="noopener noreferrer" style={styles.link}>
                     LinkedIn
-                </a>
-                <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" style={styles.link}>
-                    Twitter
                 </a>
             </div>
         </footer>
     );
 };
-
 const styles = {
     footer: {
         backgroundColor: '#333',
         color: '#fff',
         textAlign: 'center',
         padding: '1rem 0',
-        marginTop: '2rem',
     },
     text: {
         margin: 0,
@@ -42,5 +37,5 @@ const styles = {
         textDecoration: 'none',
     },
 };
-
 export default Footer;
+

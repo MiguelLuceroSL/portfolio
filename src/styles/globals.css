@@ -3,7 +3,6 @@
 :root {
     --primary-color: #4CAF50;
     --secondary-color: #FF5722;
-    --background-color: #F9F9F9;
     --text-color: #333333;
     --font-family: 'Arial', sans-serif;
 }
@@ -12,6 +11,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html{
+    background-image: url('../../public/images/fondoblue.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
 }
 
 html, body {
