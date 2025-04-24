@@ -9,16 +9,10 @@ const projects = [
         link: 'https://bknshop.vercel.app/',
     },
     {
-        title: 'Proyecto 2',
-        image: '../../public/images/bkn.jpg',
-        description: 'Description of project 2.',
+        title: 'Agenda de Consultorios',
+        image: '../../public/images/agencia.jpg',
+        description: 'Sitio web para reservación de turnos médicos, usa login con JWT, vistas con Pug, db con MySQL y verifica las rutas.',
         link: 'https://example.com/project2',
-    },
-    {
-        title: 'Proyecto 3',
-        image: '../../public/images/bkn.jpg',
-        description: 'Description of project 3.',
-        link: 'https://example.com/project3',
     },
 ];
 

@@ -1,10 +1,11 @@
 import React from 'react';
 import './Home.css';
+import Picture from './Picture';
 
 const Home = () => {
     return (
         <section id='home' className="home">
-            <img className='avatar' src="../../public/images/avatar3.png" alt="" />
+            <Picture />
             <article className="home-content">
                 <h1>¡Hola, me llamo Miguel!</h1>
                 <p className='pFirst'>
