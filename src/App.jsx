@@ -9,6 +9,7 @@ import Contact from "./sections/Contact/Contact";
 
 import "./styles/globals.css"; // si usás estilos globales
 import Tech from "./sections/Tech/Tech";
+import WhyMe from "./sections/WhyMe/WhyMe";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <main>
         <Home />
         <About />
+        <WhyMe />
         <Tech />
         <Projects />
         <Contact />

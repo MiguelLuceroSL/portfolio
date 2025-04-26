@@ -23,7 +23,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link to="projects" smooth={true} duration={500}>
-                        projectos
+                        proyectos
                     </Link>
                 </li>
                 <li>

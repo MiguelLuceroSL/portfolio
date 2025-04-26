@@ -51,7 +51,8 @@
     /*background-color: #ffffff;*/
     text-align: center;
     justify-content: space-between;
-    padding: 15rem;
+    align-items: center;
+    padding: 12rem;
 }
 
 .home-content{

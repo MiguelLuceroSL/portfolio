@@ -7,8 +7,8 @@ const Presentation = () => {
         <section className="home-section"> 
             <motion.article
                 className="home-content"
-                initial={{ x: -100, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
+                initial={{ opacity: 0, scale: 0 }}
+                animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8 }}
             >
                 <h1>¡Hola, me llamo Miguel!</h1>

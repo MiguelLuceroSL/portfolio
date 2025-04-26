@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Contact.css';
+import { motion } from "framer-motion";
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -21,52 +22,60 @@ const Contact = () => {
     };
 
     return (
-        <section id="contact" className="contact-section">
-            <h2>Contactarme</h2>
-            <form className="contact-form" onSubmit={handleSubmit}>
-                <div className="form-group">
-                    <label htmlFor="name">Nombre</label>
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleChange}
-                        required
-                        placeholder='Tu nombre aquí.'
-                        className='input-contact'
-                        pattern="[A-Za-z\s]+"
-                    />
-                </div>
-                <div className="form-group">
-                    <label htmlFor="email">Email</label>
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                        required
-                        placeholder='Tu email aquí.'
-                        className='input-contact'
-                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-                    />
-                </div>
-                <div className="form-group">
-                    <label htmlFor="message">Mensaje</label>
-                    <textarea
-                        id="message"
-                        name="message"
-                        value={formData.message}
-                        onChange={handleChange}
-                        required
-                        placeholder='Escribí tu mensaje aquí...'
-                        className='textarea'
-                    ></textarea>
-                </div>
-                <button type="submit" className="submit-button">Enviar</button>
-            </form>
-        </section>
+        <motion.section
+            className="about"
+            initial={{ scale: 0.8, opacity: 0 }}
+            whileInView={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: false, amount: 0.2 }}
+        >
+            <section id="contact" className="contact-section">
+                <h2>Contactarme</h2>
+                <form className="contact-form" onSubmit={handleSubmit}>
+                    <div className="form-group">
+                        <label htmlFor="name">Nombre</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            value={formData.name}
+                            onChange={handleChange}
+                            required
+                            placeholder='Tu nombre aquí.'
+                            className='input-contact'
+                            pattern="[A-Za-z\s]+"
+                        />
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            value={formData.email}
+                            onChange={handleChange}
+                            required
+                            placeholder='Tu email aquí.'
+                            className='input-contact'
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                        />
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="message">Mensaje</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            value={formData.message}
+                            onChange={handleChange}
+                            required
+                            placeholder='Escribí tu mensaje aquí...'
+                            className='textarea'
+                        ></textarea>
+                    </div>
+                    <button type="submit" className="submit-button">Enviar</button>
+                </form>
+            </section>
+        </motion.section>
     );
 };
 

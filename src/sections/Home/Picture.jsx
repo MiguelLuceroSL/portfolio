@@ -6,23 +6,22 @@ const Picture = () => {
 
   return (
     <motion.div
+      className="picture"
       onHoverStart={() => setIsHovered(true)}
       onHoverEnd={() => setIsHovered(false)}
-      style={{ width: 300, height: 300, overflow: "hidden" }}
-      initial={{ opacity: 0, x: 1000 }}
-      animate={{ opacity: 1, x: 0 }}
-      exit={{ opacity: 0, x: -1000 }}
       transition={{ duration: 0.9 }}
     >
+
       <motion.img
         src={isHovered ? "../../public/images/avatar2.png" : "../../public/images/avatar1.png"}
         alt="imagen"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 2 }}
-        style={{ width: "100%", height: "100%", objectFit: "cover" }}
+        initial={{ opacity: 0, scale: 0 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.8 }}
+        style={{ width: "350px", height: "350px", objectFit: "cover" }}
       />
     </motion.div>
+
   );
 };
 
