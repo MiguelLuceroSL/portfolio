@@ -70,24 +70,42 @@ textarea {
 }
     
 */
+/*Contact.css*/
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
-.contact-section {
+.about-contact{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 4rem 2rem;
-    /*background-color: #fafafa;*/
+    color: #f0f0f0;
+    text-align: center;
+    min-height: 80vh;
+    width: 100%;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     color: #333;
     text-align: center;
-    min-height: 60vh;
+    min-height: 65vh;
+    background-color: #03142e;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5rem 2rem;
+    width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contact-section h2 {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 1.5rem;
     color: #f0f0f0;
 }
@@ -96,30 +114,39 @@ textarea {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    max-width: 500px;
+    width: 400px;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    align-items: flex-start;
 }
 
 label {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #f0f0f0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 input{
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
     padding: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 4px;
     width: 100%;
     box-sizing: border-box;
+    height: 40px;
 }
 
 .textarea {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    width: 100%;
+    height: 100px;
     padding: 0.75rem;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -127,15 +154,13 @@ input{
 }
 
 .submit-button {
+    font-family: 'Ubuntu', sans-serif;
     padding: 0.75rem 1.5rem;
     background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 4px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
-.submit-button:hover {
-    background-color: #0056b3;
 }

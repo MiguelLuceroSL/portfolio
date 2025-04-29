@@ -1,5 +1,17 @@
+/*Tech.css*/
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.about-tech {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4rem 2rem;
+  color: #f0f0f0;
+  text-align: center;
+  min-height: 40vh; 
+}
 
 .tech-section {
   display: flex;
@@ -7,16 +19,19 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  min-height: 50vh;
 }
 
 .tech-content {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
 }
 
 .tech-section h2 {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 1.5rem;
   color: #f0f0f0;
 }
@@ -25,7 +40,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 2.5rem;
 }
 .tech-item {
   border: 1px solid #ddd;
@@ -46,7 +61,7 @@ li {
 }
 
 span {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #f0f0f0;
   font-family: 'Ubuntu', sans-serif;
 }

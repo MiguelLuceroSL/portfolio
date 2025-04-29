@@ -1,0 +1,66 @@
+/* Responsive General */
+@media (max-width: 1200px) {
+    .navbar {
+        padding: 1rem 5rem;
+    }
+    .home {
+        padding: 8rem 4rem;
+        flex-direction: column;
+    }
+    .home-content, .pFirst, .pSecond {
+        max-width: 90%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 1rem 2rem;
+    }
+    .navbar-links {
+        display: none; /* Escondemos links normales */
+    }
+    .hamburger {
+        display: block;
+    }
+    .home {
+        padding: 6rem 2rem;
+    }
+    .avatar {
+        width: 250px;
+        height: 250px;
+    }
+    h1 {
+        font-size: 2.2rem;
+    }
+    .pFirst, .pSecond {
+        font-size: 1rem;
+        width: 90%;
+    }
+    .about-section h2, .projects-section h2, .tech-section h2 {
+        font-size: 2rem;
+    }
+    .about-section p, .aboutMe p, .tech-list span {
+        font-size: 1rem;
+        width: 100%;
+    }
+    .project-card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .home {
+        padding: 4rem 1rem;
+    }
+    .avatar {
+        width: 200px;
+        height: 200px;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    .pFirst, .pSecond {
+        font-size: 0.9rem;
+    }
+}

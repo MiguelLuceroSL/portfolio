@@ -1,0 +1,43 @@
+.burger-button{
+    position: relative;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 9999px;
+    background-color: rgb(255, 255, 255 / 0);
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.burger-button:hover{
+    background-color: rgb(255, 255, 255 / 0.2);
+}
+
+.burger-span{
+    position: absolute;
+    height: 0.25rem;
+    width: 2.5rem;
+    background-color: white;
+}
+
+.span1{
+    left: 50%;
+    top: 35%;
+    x: -50%;
+    y: -50%;
+}
+
+.span2{
+    left: 50%;
+    top: 50%;
+    x: -50%;
+    y: -50%;
+}
+
+.span3{
+    width: 1.25rem;
+    left: calc(50% + 10px);
+    bottom: 35%;
+    x: -50%;
+    y: 50%;
+}

@@ -11,14 +11,12 @@ const Presentation = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8 }}
             >
-                <h1>¡Hola, me llamo Miguel!</h1>
-                <p className='pFirst'>
-                    y soy Desarrollador Web Fullstack.
-                </p>
+                <h1 className="typewriter">¡Hola, me llamo Miguel!👋
+                    <br />
+                    <span className="typewriter-text">Soy Desarrollador Web Fullstack.</span>
+                </h1>
             </motion.article>
         </section>
-
-
     );
 };
 

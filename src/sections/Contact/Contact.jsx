@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Contact.css';
 import { motion } from "framer-motion";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -16,14 +17,22 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle form submission logic here
-        console.log('Form submitted:', formData);
-        setFormData({ name: '', email: '', message: '' });
+    
+        emailjs.send('service_554yluq', 'template_xl9fk2k', formData, 'ztFjWrrqMqT0EqNtO')
+            .then((response) => {
+                console.log('Correo enviado con éxito!', response.status, response.text);
+                alert('¡Mensaje enviado con éxito!');
+                setFormData({ name: '', email: '', message: '' });
+            })
+            .catch((err) => {
+                console.error('Error al enviar el correo:', err);
+                alert('Error al enviar el mensaje. Inténtalo más tarde.');
+            });
     };
 
     return (
         <motion.section
-            className="about"
+            className="about-contact"
             initial={{ scale: 0.8, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.8 }}
@@ -72,7 +81,19 @@ const Contact = () => {
                             className='textarea'
                         ></textarea>
                     </div>
-                    <button type="submit" className="submit-button">Enviar</button>
+                    <motion.button
+                        type="submit"
+                        className="submit-button"
+                        whileHover={{
+                            scale: 1.1,
+                            backgroundColor: "#4ade80", // verde clarito
+                            boxShadow: "0px 0px 8px rgb(74, 222, 128)" // sombrita verde
+                        }}
+                        whileTap={{ scale: 0.95 }}
+                        transition={{ type: "spring", stiffness: 300 }}
+                    >
+                        Enviar
+                    </motion.button>
                 </form>
             </section>
         </motion.section>

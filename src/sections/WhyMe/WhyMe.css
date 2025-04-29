@@ -1,51 +1,31 @@
-/*About.css*/
+/*WhyMe.css*/
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
-.about-section-about {
+.aboutMe{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     padding: 4rem 2rem;
     /*background-color: #fafafa;*/
     color: #f0f0f0;
     text-align: center;
-    min-height: 45vh;
-}
-
-.about-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0rem 2rem;
-    /*background-color: #fafafa;*/
-    color: #f0f0f0;
-    text-align: center;
-    max-height: 45vh;
-}
-
-.about-content{ 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
+    min-height: 50vh;
 }
 
 .about-section h2 {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 1.5rem;
     color: #f0f0f0;
 }
 
 .about-section p {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.6;
-    max-width: 800px;
+    width: 80rem;
     margin: 0 auto;
     color: #f0f0f0;
 }
