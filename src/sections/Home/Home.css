@@ -73,7 +73,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-h1{
+.typewriter{
     font-family: 'Ubuntu Sans Mono', monospace;
     font-size: 3rem;
     color: #ffffff;
