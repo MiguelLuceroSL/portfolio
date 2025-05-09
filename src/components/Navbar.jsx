@@ -9,10 +9,10 @@ const Navbar = () => {
     }
 
     return (
-        <nav className={`text-white bg-[#03142e] w-full z-50 top-0 flex justify-center h-[5rem] items-center md:px-8 lg:px-10 md:py-6 md:flex-row transition-all duration-300 ease-in-out ${isOpen ? 'flex-col gap-[2rem]' : 'flex-row gap-[12rem] md:gap-0 md:justify-between'}`}>
+        <nav className={`text-white bg-[#03142e] w-full z-50 top-0 flex justify-center h-[5rem] items-center md:px-8 lg:px-10 md:py-6 md:flex-row transition-all duration-700 ease-in-out ${isOpen ? 'flex-col gap-[2rem]' : 'flex-row gap-[12rem] md:gap-0 md:justify-between'}`}>
             <article className="navbar-logo">
                 <Link to="home" smooth={true} duration={500}>
-                    <h1 className='text-white text-[3rem] md:text-[2rem]'>Miguel Lucero</h1>
+                    <h1 className='text-white text-[1.5rem] sm:text-[2rem] md:text-[2.5rem] md:w-[15.8rem] lg:text-[3rem] lg:w-[20rem] xl:text-[3.5rem] xl:w-[25rem]'>Miguel Lucero</h1>
                 </Link>
             </article>
             {!isOpen && (

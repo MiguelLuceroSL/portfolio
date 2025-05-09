@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { motion, MotionConfig } from "framer-motion";
-import "../styles/Burger.css";
 
 const AnimatedHamburgerButton = () => {
     const [active, setActive] = useState(false);
