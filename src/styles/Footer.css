@@ -1,6 +1,6 @@
 /*Footer.css*/
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
-footer {
+.footer {
     background-color: #03142e;
     color: #fff;
     text-align: center;
@@ -27,7 +27,7 @@ footer {
     margin: 0 0.5rem;
     text-decoration: 'none';
 }
-a:hover{
+.a:hover{
     color: #21a1f1;
     text-decoration: 'underline';
 }

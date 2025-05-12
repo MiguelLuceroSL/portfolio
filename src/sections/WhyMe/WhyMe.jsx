@@ -15,7 +15,7 @@ function WhyMe() {
       <section id="about" className="about-section">
         <article className="about-content">
           <h2>¿Por qué yo?</h2>
-          <p className='pSecond'>
+          <p className='pSecond p'>
           Disfruto trabajar en equipo, compartir ideas y aprender de los demás. Me considero una persona comprometida, proactiva y con una fuerte orientación a la mejora continua. Valoro la comunicación, la colaboración y el respeto en el entorno laboral. Siempre busco aportar lo mejor de mí en cada proyecto, con entusiasmo y muchas ganas de crecer profesionalmente.
           </p>
         </article>

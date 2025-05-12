@@ -103,7 +103,7 @@ textarea {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.contact-section h2 {
+.contact-section .h2 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
@@ -124,7 +124,7 @@ textarea {
     align-items: flex-start;
 }
 
-label {
+.label {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.1rem;
     color: #f0f0f0;

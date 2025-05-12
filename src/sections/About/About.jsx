@@ -14,7 +14,7 @@ function About() {
       <section id="about" className="about-section">
         <article className="about-content">
           <h2>Sobre mí</h2>
-          <p className='pSecond'>
+          <p className='pSecond p'>
             Hola, soy Miguel Lucero, desarrollador fullstack en formación con una gran pasión por la tecnología y la programación. Actualmente estoy finalizando la carrera de Tecnicatura Universitaria en Desarrollo de Software. Me encanta mantenerme en constante aprendizaje, explorando nuevas tecnologías, frameworks y buenas prácticas para construir soluciones sólidas, modernas y eficientes. Soy detallista, curioso y siempre busco mejorar en cada línea de código.
           </p>
         </article>

@@ -34,14 +34,14 @@
     gap: 1.5rem;
 }
 
-.about-section h2 {
+.about-section .h2 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
     color: #f0f0f0;
 }
 
-.about-section p {
+.about-section .p {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.2rem;
     line-height: 1.6;

@@ -14,18 +14,18 @@
     min-height: 50vh;
 }
 
-.about-section h2 {
+.about-section .h2 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 3rem;
     margin-bottom: 1.5rem;
     color: #f0f0f0;
 }
 
-.about-section p {
+.about-section .p {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.4rem;
     line-height: 1.6;
-    width: 80rem;
+    width: auto;
     margin: 0 auto;
     color: #f0f0f0;
 }

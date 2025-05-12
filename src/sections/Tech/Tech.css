@@ -29,7 +29,7 @@
   gap: 2.5rem;
 }
 
-.tech-section h2 {
+.tech-section .h2 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
@@ -60,7 +60,7 @@ li {
   gap: 1rem;
 }
 
-span {
+.span {
   font-size: 1.1rem;
   color: #f0f0f0;
   font-family: 'Ubuntu', sans-serif;
