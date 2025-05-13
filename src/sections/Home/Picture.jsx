@@ -18,7 +18,8 @@ const Picture = () => {
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8 }}
-        style={{ width: "350px", height: "350px", objectFit: "cover" }}
+        style={{objectFit: "cover" }}
+        className="object-cover w-[10rem] h-[10rem] sm:w-[15rem] sm:h-[15rem] md:w-[20rem] md:h-[20rem]"
       />
     </motion.div>
 
