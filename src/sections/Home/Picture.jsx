@@ -13,7 +13,7 @@ const Picture = () => {
     >
 
       <motion.img
-        src={isHovered ? "../../img/avatar2.png" : "../../img/avatar1.png"}
+        src={isHovered ? "/static/images/avatar2.png" : "/static/images/avatar1.png"}
         alt="imagen"
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: 1, scale: 1 }}

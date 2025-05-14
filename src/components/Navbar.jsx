@@ -20,7 +20,7 @@ const Navbar = () => {
             <article className="navbar-logo">
                 <Link to="home" smooth={true} duration={500}>
                     {/*<h1 className={`text-white text-[1.8rem] sm:text-[2rem] md:text-[2.5rem] md:w-[15.8rem] lg:w-[20rem] xl:w-[25rem] ${isOpen ? 'mb-[2rem] text-[2.5rem]' : ''}`}>Miguel Lucero</h1> */}
-                    <img src="../img/ML2.png" alt="logoml" className="object-cover h-[2.5rem] sm:h-[3rem] md:h-[3.5rem] lg:h-[4rem] cursor-pointer" />
+                    <img src="/static/images/ML2.png" alt="logoml" className="object-cover h-[2.5rem] sm:h-[3rem] md:h-[3.5rem] lg:h-[4rem] cursor-pointer" />
                 </Link>
             </article>
             {!isOpen && (
