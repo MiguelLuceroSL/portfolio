@@ -8,7 +8,7 @@
 }
 
 html{
-    background-image: url('../../public/images/fondoblue.jpg') !important;
+    background-image: url('/static/images/fondoblue.jpg') !important;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
