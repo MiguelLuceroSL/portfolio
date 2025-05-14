@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 const projects = [
     {
         title: 'BKN Shop',
-        image: '../../public/images/bkn.jpg',
+        image: '../../img/bkn.jpg',
         description: 'Un e-commerce realizado con React, donde consumo la API fakestoreapi, uso el localstorage y el estilo con tailwind.',
         link: 'https://bknshop.vercel.app/',
     },
     {
         title: 'Agenda de Consultorios',
-        image: '../../public/images/agencia.jpg',
+        image: '../../img/agencia.jpg',
         description: 'Sitio web para reservación de turnos médicos, usa login con JWT, vistas con Pug, db con MySQL y verifica las rutas.',
         link: 'https://example.com/project2',
     },
