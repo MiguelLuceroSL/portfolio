@@ -11,7 +11,7 @@ const projects = [
     },
     {
         title: 'Agenda de Consultorios',
-        image: '../../img/agencia.jpg',
+        image: '../img/agencia.jpg',
         description: 'Sitio web para reservación de turnos médicos, usa login con JWT, vistas con Pug, db con MySQL y verifica las rutas.',
         link: 'https://example.com/project2',
     },
