@@ -1,37 +1,8 @@
 /*Presentacion.css*/
-.home-section{
-    overflow-x: hidden;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+.font{
+  font-family: 'Ubuntu Sans Mono', monospace;
 }
-
-.home-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.typewriter {
-    overflow: hidden; /* Esconde el texto que aún no se "escribió" */
-    border-right: .10em solid rgb(224, 224, 224); /* Palo que titila */
-    white-space: nowrap; /* Que no se corte la línea */
-    margin: 0 auto; /* Centrado */
-    letter-spacing: .15rem; /* Espaciado entre letras */
-    animation: typing 2s steps(30, end), blink-caret 1.75s step-end infinite;
-    
-  }
-  
-  /* Animación de escritura */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* Animación del parpadeo del cursor */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: rgb(219, 219, 219); }
-  }
-
-.typewriter-text{
-    color: #c4c4c4;
-  }
