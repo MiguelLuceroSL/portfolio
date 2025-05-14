@@ -1,20 +1,17 @@
-import React from 'react';
-import '../styles/Footer.css'; // Asegúrate de tener este archivo CSS para los estilos
-import { Link } from 'react-scroll'; // Importa Link desde react-scroll si lo necesitas
-
+import '../styles/Footer.css';
 const Footer = () => {
 
 
     return (
-        <footer id="footer">
-            <p className='text'>
+        <footer id="footer" className='flex flex-col bg-[#03142e] text-[#fff] text-center py-[1rem] gap-[1rem]'>
+            <p className='text-footer m-0 text-[1rem] text-[#f0f0f0]'>
                 © {new Date().getFullYear()} Miguel Roque Roberto Lucero. Todos los derechos reservados.
             </p>
-            <div className='social-links'>
-                <a className='links' href="https://github.com/MiguelLuceroSL" target="_blank" rel="noopener noreferrer">
+            <div className='flex flex-row justify-center mt-[0.5rem] gap-[2rem]'>
+                <a className='links-footer text-[1.2rem] text-[#61dafb] hover:text-[#21a1f1] my-0 mx-[0.5]' href="https://github.com/MiguelLuceroSL" target="_blank" rel="noopener noreferrer">
                     GitHub
                 </a>
-                <a className='links' href="https://www.linkedin.com/in/lucero-roque-roberto-miguel-2122bb251/" target="_blank" rel="noopener noreferrer">
+                <a className='links-footer text-[1.2rem] text-[#61dafb] hover:text-[#21a1f1] my-0 mx-[0.5]' href="https://www.linkedin.com/in/lucero-roque-roberto-miguel-2122bb251/" target="_blank" rel="noopener noreferrer">
                     LinkedIn
                 </a>
             </div>

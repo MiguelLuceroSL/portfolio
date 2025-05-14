@@ -32,17 +32,17 @@ const Contact = () => {
 
     return (
         <motion.section
-            className="about-contact"
+            className="flex flex-col items-center justify-center w-full h-full py-[4rem] px-[2rem] text-[#f0f0f0] text-center"
             initial={{ scale: 0.8, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.2 }}
         >
-            <section id="contact" className="contact-section">
-                <h2>Contactarme</h2>
-                <form className="contact-form" onSubmit={handleSubmit}>
-                    <div className="form-group">
-                        <label htmlFor="name">Nombre</label>
+            <section id="contact" className="contact-section flex flex-col justify-between items-center text-[#333] text-center bg-[#03142e] py-[8rem] px-[2rem] w-[400px] sm:w-[500px] md:w-[600px]">
+                <h2 className='fuente-ubuntu-sans text-[2.5rem] mb-[1.5rem] text-[#f0f0f0]'>Contactarme</h2>
+                <form className="flex flex-col gap-[2rem] w-[200px] sm:w-[300px] md:w-[400px]" onSubmit={handleSubmit}>
+                    <div className="flex flex-col gap-[0.5rem] items-start">
+                        <label className='text-[1.1rem] fuente-ubuntu-sans' htmlFor="name">Nombre</label>
                         <input
                             type="text"
                             id="name"
@@ -51,12 +51,12 @@ const Contact = () => {
                             onChange={handleChange}
                             required
                             placeholder='Tu nombre aquí.'
-                            className='input-contact'
+                            className='input-contact text-[1rem] fuente-ubuntu-sans p-[0.5rem] w-full h-[40px]'
                             pattern="[A-Za-z\s]+"
                         />
                     </div>
-                    <div className="form-group">
-                        <label htmlFor="email">Email</label>
+                    <div className="flex flex-col gap-[0.5rem] items-start">
+                        <label className='text-[1.1rem] fuente-ubuntu-sans' htmlFor="email">Email</label>
                         <input
                             type="email"
                             id="email"
@@ -65,12 +65,12 @@ const Contact = () => {
                             onChange={handleChange}
                             required
                             placeholder='Tu email aquí.'
-                            className='input-contact'
+                            className='input-contact text-[1rem] fuente-ubuntu-sans p-[0.5rem] w-full h-[40px]'
                             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                         />
                     </div>
-                    <div className="form-group">
-                        <label htmlFor="message">Mensaje</label>
+                    <div className="flex flex-col gap-[0.5rem] items-start">
+                        <label className='fuente-ubuntu-sans text-[1.1rem]' htmlFor="message">Mensaje</label>
                         <textarea
                             id="message"
                             name="message"
@@ -78,12 +78,12 @@ const Contact = () => {
                             onChange={handleChange}
                             required
                             placeholder='Escribí tu mensaje aquí...'
-                            className='textarea'
+                            className='textarea-contact fuente-ubuntu-sans text-[1rem] w-full h-[100px] p-[0.5rem]'
                         ></textarea>
                     </div>
                     <motion.button
                         type="submit"
-                        className="submit-button"
+                        className="submit-button-contact fuente-ubuntu-sans py-[0.75rem] px-[1.5rem] bg-[#007bff] text-[#fff] text-[1.2rem] cursor-pointer"
                         whileHover={{
                             scale: 1.1,
                             backgroundColor: "#4ade80", // verde clarito
