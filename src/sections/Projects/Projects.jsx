@@ -13,7 +13,7 @@ const projects = [
         title: 'Agenda de Consultorios',
         image: '/static/images/agencia.jpg',
         description: 'Sitio web para reservación de turnos médicos, usa login con JWT, vistas con Pug, db con MySQL y verifica las rutas.',
-        link: 'https://example.com/project2',
+        link: 'https://github.com/MiguelLuceroSL/AgendaDeConsultorio',
     },
     {
         title: 'Cine SL',
