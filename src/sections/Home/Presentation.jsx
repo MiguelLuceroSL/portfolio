@@ -14,6 +14,7 @@ const Presentation = () => {
                 <h1 className="font text-[2rem] sm:text-[2.5rem] md:text-[3rem] lg:text-[3.5rem]">¡Hola, me llamo Miguel!👋
                     <br />
                     <span className="text-[#c4c4c4] text-[1rem] sm:text-[1.5rem] md:text-[2rem] lg:text-[2.5rem]">Soy Desarrollador Web Fullstack.</span>
+                    <a href="/cvluceromiguel.pdf" target="_blank">Ver mi CV</a>
                 </h1>
                 
             </motion.article>
