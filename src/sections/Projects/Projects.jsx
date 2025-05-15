@@ -15,6 +15,12 @@ const projects = [
         description: 'Sitio web para reservación de turnos médicos, usa login con JWT, vistas con Pug, db con MySQL y verifica las rutas.',
         link: 'https://example.com/project2',
     },
+    {
+        title: 'Cine SL',
+        image: '/static/images/cine.jpg',
+        description: 'Sitio web donde consumo una API de películas, muestra su información, esta hecho con React, Express y db en Postgree.',
+        link: 'https://github.com/pedrocjs1/backend-cinesl',
+    },
 ];
 
 const Projects = () => {
