@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import "../../styles/Presentation.css";
-import CV from "../../../CV.pdf";
+import CV from "../../../cv.pdf";
 
 const Presentation = () => {
 
@@ -16,7 +16,7 @@ const Presentation = () => {
                     <br />
                     <span className="text-[#c4c4c4] text-[1rem] sm:text-[1.5rem] md:text-[2rem] lg:text-[2.5rem]">Soy Desarrollador Web Fullstack.</span>
                     <br />
-                    <a className="text-[#00bcd4] text-[0.5rem] sm:text-[1rem] md:text-[1.5rem]" href={CV} target="_blank" download>
+                    <a className="text-[#00bcd4] text-[0.5rem] sm:text-[1rem] md:text-[1.5rem]" href={CV} target="_blank">
                         <button className="bg-[#00bcd4] text-white rounded-md px-4 py-2 mt-4 hover:bg-[#008c9e] transition duration-300">
                             Descargar mi CV    
                         </button>
