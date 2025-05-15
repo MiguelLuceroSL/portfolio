@@ -18,7 +18,7 @@ const projects = [
     {
         title: 'Cine SL',
         image: '/static/images/cine.jpg',
-        description: 'Sitio web donde consumo una API de películas, muestra su información, esta hecho con React, Express y db en Postgree.',
+        description: 'Sitio web donde consumo una API de películas, muestra su información, esta hecho con React, Express y  Postgree.',
         link: 'https://github.com/pedrocjs1/backend-cinesl',
     },
 ];
