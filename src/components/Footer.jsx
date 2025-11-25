@@ -11,7 +11,7 @@ const Footer = () => {
                 <a className='links-footer text-[1.2rem] text-[#61dafb] hover:text-[#21a1f1] my-0 mx-[0.5]' href="https://github.com/MiguelLuceroSL" target="_blank" rel="noopener noreferrer">
                     GitHub
                 </a>
-                <a className='links-footer text-[1.2rem] text-[#61dafb] hover:text-[#21a1f1] my-0 mx-[0.5]' href="https://www.linkedin.com/in/lucero-roque-roberto-miguel-2122bb251/" target="_blank" rel="noopener noreferrer">
+                <a className='links-footer text-[1.2rem] text-[#61dafb] hover:text-[#21a1f1] my-0 mx-[0.5]' href="https://www.linkedin.com/in/lucero-miguel-roque-roberto-2122bb251/" target="_blank" rel="noopener noreferrer">
                     LinkedIn
                 </a>
             </div>
