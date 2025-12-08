@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import "../../styles/Presentation.css";
-import CV from "../../../cv.pdf";
+import CV from "../../../cvdev.pdf";
 
 const Presentation = () => {
 

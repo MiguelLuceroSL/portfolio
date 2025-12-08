@@ -96,6 +96,30 @@ function Tech() {
                             <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" viewBox="0 0 128 128"><path d="M64.004 25.602c-17.067 0-27.73 8.53-32 25.597 6.398-8.531 13.867-11.73 22.398-9.597 4.871 1.214 8.352 4.746 12.207 8.66C72.883 56.629 80.145 64 96.004 64c17.066 0 27.73-8.531 32-25.602-6.399 8.536-13.867 11.735-22.399 9.602-4.87-1.215-8.347-4.746-12.207-8.66-6.27-6.367-13.53-13.738-29.394-13.738zM32.004 64c-17.066 0-27.73 8.531-32 25.602C6.402 81.066 13.87 77.867 22.402 80c4.871 1.215 8.352 4.746 12.207 8.66 6.274 6.367 13.536 13.738 29.395 13.738 17.066 0 27.73-8.53 32-25.597-6.399 8.531-13.867 11.73-22.399 9.597-4.87-1.214-8.347-4.746-12.207-8.66C55.128 71.371 47.868 64 32.004 64zm0 0" fill="#38bdf8" /></svg>
                             <span className="font text-[0.5rem] sm:text-[1rem]">Tailwind CSS</span>
                         </motion.li>
+                        <motion.li
+                            whileHover={{
+                                scale: 1.1,
+                                transition: { type: "spring", stiffness: 300 }
+                            }}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" viewBox="0 0 128 128"><path fill="#3DDC84" d="M8.992 61.616l28.624 16.512v33.024L8.992 94.64zm0-20.88l28.624-16.512v32.336L8.992 40.736zm46.128-28.016L64 10.128l9.088 1.872 28.624 54.624-28.624 16.512-28.624-16.512 28.624-54.624zM64 85.008l28.624-16.512v33.024L64 118.032zm46.128-28.016l28.624 16.512V40.736l-28.624-16.512z" /></svg>
+                            <span className="font text-[0.5rem] sm:text-[1rem]">Android</span>
+                        </motion.li>
+                        <motion.li
+                            whileHover={{
+                                scale: 1.1,
+                                transition: { type: "spring", stiffness: 300 }
+                            }}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" viewBox="0 0 128 128"><path fill="#239120" d="M117.5 33.5l.3-.2c-.6-1-1.5-2.1-2.7-2.6L67.1 2.9c-1.2-.6-3.1-.6-4.2 0L13.5 30.3c-1.3.5-2.3 1.8-2.7 2.6l102.7 59.3v-58.7z" /><path fill="#0078D4" d="M11.8 34.3c-.5 1-.8 2.1-.8 3.2v57c0 1.4.4 2.7 1 3.9L65 72.3l-53.2-38z" /><path fill="#50E6FF" d="M116.4 98.2c.6-1.2 1-2.5 1-3.9v-57c0-1.1-.3-2.2-.8-3.2L65 72.3l51.4 25.9z" /><path fill="#1F7F5C" d="M65 72.3l53.4-38.5c-.3-.4-.7-.8-1.2-1.1L65.9 5.9c-1.2-.6-3.1-.6-4.2 0L12.7 33.3c-.5.3-.9.7-1.2 1.1L65 72.3z" /><path fill="#107C10" d="M11 102.1c.4.8 1.4 2 2.7 2.6l53.4 27.4c1.2.6 3.1.6 4.2 0l53.4-27.4c1.3-.5 2.3-1.8 2.7-2.6L65 72.3 11 102.1z" /></svg>
+                            <span className="font text-[0.5rem] sm:text-[1rem]">C#</span>
+                        </motion.li>
+                        <motion.li
+                            whileHover={{
+                                scale: 1.1,
+                                transition: { type: "spring", stiffness: 300 }
+                            }}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" viewBox="0 0 128 128"><path fill="#512BD4" d="M11.5 51.6h20.4v-9.4H11.5v9.4zm23.9 0h20.4v-9.4H35.4v9.4zm23.9 0h20.4v-9.4H59.3v9.4zm23.9 0h20.4v-9.4H83.2v9.4zM11.5 75.5h20.4v-9.4H11.5v9.4zm23.9 0h20.4v-9.4H35.4v9.4zm23.9 0h20.4v-9.4H59.3v9.4zm23.9 0h20.4v-9.4H83.2v9.4z" /></svg>
+                            <span className="font text-[0.5rem] sm:text-[1rem]">.NET</span>
+                        </motion.li>
                     </ul>
                 </article>
             </section>
